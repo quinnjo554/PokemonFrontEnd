@@ -159,8 +159,7 @@ const filteredSearchAbilities = searchOption ? allPokemon.filter((item, index, s
     <ul>
       {searchOption === "name" ? filteredSearch.map((value, index) => (
             <Link to={`/pokemonPage/${value.id}`}><li key={index} onClick={() => handleFilterOnClick(value)} className="px-4 py-2 cursor-pointer hover:bg-gray-200">{value.name}</li></Link>))
-        : searchOption === "types"
-        ? filteredSearchType.map((value, index) => (
+        : searchOption === "types" ? filteredSearchType.map((value, index) => (
             <li key={index} onClick={() => handleFilterOnClick(value)} className="px-4 py-2 cursor-pointer hover:bg-gray-200">{value.types[0].name}</li>
           ))
         : searchOption === "ability" &&
