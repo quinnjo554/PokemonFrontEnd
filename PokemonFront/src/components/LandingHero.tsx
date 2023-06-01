@@ -10,7 +10,7 @@ function LandingHero() {
             <h1 className="title">Pokedex</h1>
             <p className="card-body">Look at all your favorite pokemons stats and abililties
             </p>
-            <a className="button" href="https://github.com/defoeam/MarketMock" target="_blank">Go!</a>
+            <a className="button" href="https://github.com/quinnjo554/PokemonFrontEnd" target="_blank">Go!</a>
         </div>
     </div>
     <div className='heroText fixed w-max left-[15%]'>
