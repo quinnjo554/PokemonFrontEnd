@@ -2,13 +2,6 @@
 import axios from 'axios';
 
 
-const api = axios.create({
-  baseURL: 'http://localhost:5173/', // Replace with your API's base URL
-  headers: {
-    'Access-Control-Allow-Origin': '*', // Allow requests from any origin
-    'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS', // Allow the specified HTTP methods
-  },
-});
 
 export async function getAllPokemon(page:string | undefined,size:number = 30) {
   try {
