@@ -5,7 +5,8 @@
 
 .pokedex-hero{
   background-image: url("./assets/tumblr_pev0myaFLh1sqpyoco1_1280.jpeg");
-  background-size: contain;
+  background-size: cover;
+  height: 120vh;
 }
 
 .hero{
@@ -95,7 +96,6 @@
    background-color:  hsl(142, 90%, 61%);
    padding: 0.5em 1.25em;
    border-radius: 1rem;
-   
 }
 
 @keyframes slideImg {

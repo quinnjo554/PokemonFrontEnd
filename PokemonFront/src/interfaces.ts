@@ -17,6 +17,19 @@ export interface pokemon{
     weight: string;
 }
 
+export interface evolutionChain{
+  evolves_to:evolve_to[],
+  species:species
+}
+export interface species{
+  name:string,
+  url:string
+}
+export interface evolve_to{
+  species:species,
+  evolves_to:evolve_to[]
+}
+
 export interface Type{
     id:string,
     name:string

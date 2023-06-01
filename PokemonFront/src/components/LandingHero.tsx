@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 function LandingHero() {
+
   return (
     <div className='hero fixed top-20 z-[-1] w-full h-full bg-gray-400'>
     <div className="card" id="pokecard">
@@ -8,7 +10,7 @@ function LandingHero() {
             <h1 className="title">Pokedex</h1>
             <p className="card-body">Look at all your favorite pokemons stats and abililties
             </p>
-            <a className="button" href="https://github.com/defoeam/MarketMock" target="_self">Go!</a>
+            <a className="button" href="https://github.com/defoeam/MarketMock" target="_blank">Go!</a>
         </div>
     </div>
     <div className='heroText fixed w-max left-[15%]'>
@@ -16,7 +18,7 @@ function LandingHero() {
             <h1 className='text-white text-5xl mb-3 font-semibold font-sans'>Pokedex</h1>
             <p className='text-white text-lg font-medium'> tenetur suscipit rem ducimus aliquam possimus nobis illo natus quos ad libero doloremque eligendi facere aperiam, optio fuga architecto atque officia molestias culpa nihil. Ducimus.
             </p>
-            <button className='button text-white mt-4 shadow-md shadow-white hover:shadow-none ease-in-out'>Try For Free</button>
+            <Link to={"/pokemon/0"}><button className='button text-white mt-4 shadow-md shadow-white hover:shadow-none ease-in-out'>Try For Free</button></Link>
         </div>
         
     </div>

@@ -4,7 +4,7 @@ import LandingNav from './LandingNav'
 function LandingPage() {
   return (
     <div>
-        <LandingNav></LandingNav>
+        <LandingNav hasButtons={true}></LandingNav>
         <LandingHero></LandingHero>
     </div>
   )
