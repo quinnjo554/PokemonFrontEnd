@@ -24,8 +24,7 @@ function PokemonPage() {
   const [updatePage,setUpdatePage] = useState(false);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   
-  //add evolution tree
-  //move chart to diff file
+  
   
   const options = {
     responsive: true,
